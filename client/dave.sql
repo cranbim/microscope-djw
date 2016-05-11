@@ -1,0 +1,2 @@
+IF (@pay_plan_id>1, & if (todaydiff(@compl_delay__1) >= 0 & todaydiff(@compl_delay__1) <= 30,  @rest_curr__1, IF (@pay_plan_id <1, & if (todaydiff(@due_date) >= 0 & todaydiff(@due_date) <= 30,  @rest_amount,0)
+ 
